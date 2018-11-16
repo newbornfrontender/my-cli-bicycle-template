@@ -3,10 +3,10 @@
     "es6": true,
     "browser": true
   },
-  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "extends": "eslint:recommended",
   "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module"
-  }
+  },
   "plugins": ["babel", "lit"]
 }
