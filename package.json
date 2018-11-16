@@ -6,6 +6,18 @@
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "prettier:list": "prettier --list-different **/*.{html,js,json,md}",
+    "prettier:write": "prettier --write **/*.{html,js,json,md} !src/**/*.js",
+    "eslint": "eslint src/**/*.js",
+    "eslint:check": "eslint --print-config . | eslint-config-prettier-check",
+    "eslint:fix": "eslint --fix src/**/*.js",
+    "babel": "babel src --out-dir lib",
+    "babel:watch": "yarn babel --watch",
+    "rollup": "rollup --config",
+    "rollup:watch": "yarn rollup --watch",
+    "build": "yarn babel && yarn rollup"
+  },
   "dependencies": {
     "@polymer/lit-element": "^0.6.3",
     "lit-html": "^0.13.0"
