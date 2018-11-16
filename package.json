@@ -1,0 +1,9 @@
+{
+  "name": "my-cli-bicycle-template",
+  "version": "1.0.0",
+  "description": "Невероятно простой одноколесный велосипед из CLI инструментов, перемотанный синей изолентой. Присутствуют пасхалки в виде костылей",
+  "repository": "https://github.com/newbornfrontender/my-cli-bicycle-template.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
