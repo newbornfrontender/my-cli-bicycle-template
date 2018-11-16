@@ -8,7 +8,7 @@
 
 <h2 align="center">Зачем?</h2>
 
-Затем 
+Затем
 
 <h2 align="center">Описание</h2>
 
