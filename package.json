@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "prettier:list": "prettier --list-different **/*.{html,js,json,md}",
-    "prettier:write": "prettier --write **/*.{html,js,json,md} !src/**/*.js",
+    "prettier:list": "prettier --list-different **/*.{html,js,json,md,.stylelintrc}",
+    "prettier:write": "prettier --write **/*.{html,js,json,md,.stylelintrc} !src/**/*.js",
     "eslint": "eslint --config .eslintrc/prettier.json src/**/*.js",
     "eslint:check": "eslint --config .eslintrc/prettier.json --print-config . | eslint-config-prettier-check",
     "eslint:fix": "eslint --config .eslintrc/prettier.json --fix src/**/*.js",
